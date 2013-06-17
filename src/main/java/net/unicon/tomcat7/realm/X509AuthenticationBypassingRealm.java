@@ -17,7 +17,7 @@ import java.util.Arrays;
  * <p/>
  * This implementation just creates a valid instance of <code>GenericPrincipal</code> with username string containing the Subject line from client cert,
  * and default <i>X509</i> role - the one that must be configured inside <i>auth-constraint</i> element in applications' web.xml.
- * The role name is configurable via this class' property of <code>authnContraintRoleName</code>
+ * The role name is configurable via this class' property of <code>authnConstraintRoleName</code>
  * <p/>
  * This implementation also turns off X509 certificate chain validation.
  *
