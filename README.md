@@ -13,7 +13,7 @@ At the project's root directory from the command line simply execute `./gradlew`
 
 ### Install 
 
-Copy `buld/libs/x509authentication-bypassing-tomcat-realm-1.0.jar` to `$CATALINA_HOME/lib` (where `$CATALINA_HOME` is the root directory of Tomcat 7 installation)
+Copy `build/libs/x509authentication-bypassing-tomcat-realm-1.0.jar` to `$CATALINA_HOME/lib` (where `$CATALINA_HOME` is the root directory of Tomcat 7 installation)
 
 ### Configure Realm
 
