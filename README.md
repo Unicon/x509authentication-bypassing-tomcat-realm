@@ -40,7 +40,7 @@ In `$CATALINA_HOME/conf/server.xml` add the following inside the `Engine` config
             <role-name>X509</role-name>
         </auth-constraint>
 </security-constraint>
-    <login-config>
-        <auth-method>CLIENT-CERT</auth-method>
-    </login-config>
+<login-config>
+         <auth-method>CLIENT-CERT</auth-method>
+</login-config>
 ```
