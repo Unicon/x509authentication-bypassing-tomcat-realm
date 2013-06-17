@@ -1,7 +1,7 @@
 x509authentication-bypassing-tomcat-realm
 ========================================
 
-This projects contains custom implementation of Apache Tomcat 7 Realm whos primary purpose is to bypass the X509 client certificate's Subject field comparison against pre-configured Tomcat's authentication sources.
+This project contains custom implementation of Apache Tomcat 7 Realm whos primary purpose is to bypass the X509 client certificate's Subject field comparison against pre-configured Tomcat's authentication sources.
 
 This is useful in situations where web applications deployed in Tomcat have parts of their resources (URLs) protected by standard `security-constraint` mechanism with `CLIENT-CERT` login configuration that wish to just do the client-side X509 certificate authentication themselves or to delegate to an external authentication mechanism and not rely on the standard Tomcat's Realm to perform this step.
 
